@@ -1,0 +1,34 @@
+.order-item{
+	display: flex;
+	border: 2px solid gray;
+	padding: 5px;
+	border-radius: 10px;
+	margin: 15px;
+	max-width: 571px;
+}
+.order-item img{
+	width: 91px;
+}
+.order-details-container{
+	width: 100%;
+	margin-left:10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.delete-btn{
+	width: 55px;
+	height: 55px;
+	border: none;
+	border-radius: 50%;
+	background-color: rgba(235, 87, 87, 0.3);
+	cursor: pointer;
+}
+.delete-item{
+	color: #EB5757;
+	font-size: 27px;
+}
+.order-deatails p{
+	margin: 3px;
+
+}
