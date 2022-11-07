@@ -11,3 +11,12 @@
 .cart-container{
 	background-color: rgba(255, 153, 0, 0.3);
 }
+button{
+	margin: 0 10px;
+}
+.pagination .selected{
+	background: goldenrod;
+	padding: 10px;
+}
+
+/* [...Array(pages).keys()].map(number=><button key={number}>{number}</button>) */
